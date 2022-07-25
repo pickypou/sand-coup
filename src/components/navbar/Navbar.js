@@ -4,8 +4,7 @@ import './navbar.css'
 
 export default function Navbar(){
     return(
-        <nav className="navbar navbar-extand-lg fixed-top">
-            <div className="container-fluid">
+        <nav className="navbar navbar-extand-lg px-4 fixed-top">        
             <button class="navbar-toggler" 
             type="button" 
             data-bs-toggle="collapse"
@@ -17,6 +16,11 @@ export default function Navbar(){
     </button>
             <Link className="navbar-brand" to="/">Accueil</Link>
             <Link className="navbar-brand" to="recette">Recettes</Link>
+        
+        <div>
+            <button className="btn btn-primary">Sign Up</button>
+            <button className="btn btn-primary ms-3">Sign In</button>
+            <button className="btn btn-primary ms-3">Log Out</button>
         </div>
         </nav>
     )
