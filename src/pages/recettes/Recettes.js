@@ -133,12 +133,7 @@ export default function Recettes(){
     <h5 className="card-title">étape 5</h5>
     <p className="card-text">Ajouter le zeste et le jus de citron, assaisonner avec l'huile et l'origan, sel poivre. Mélanger délicatement et servir.</p>
   </div>
-</div>    
-
-
-             
-</div>
-
-       
+</div>                 
+</div>   
     )
 }

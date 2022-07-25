@@ -1,8 +1,11 @@
-import React from "react";
+import React, {useContext} from "react";
 import { Link} from "react-router-dom";
 import './navbar.css'
+import { UserContext } from "../../context/UserContext";
 
 export default function Navbar(){
+const {toggleModals} = useContext(UserContext)
+
     return(
         <nav className="navbar navbar-extand-lg px-4 fixed-top">        
             <button class="navbar-toggler" 
@@ -18,9 +21,12 @@ export default function Navbar(){
             <Link className="navbar-brand" to="recette">Recettes</Link>
         
         <div>
-            <button className="btn btn-primary">Sign Up</button>
-            <button className="btn btn-primary ms-3">Sign In</button>
-            <button className="btn btn-primary ms-3">Log Out</button>
+            <button onClick={()=>toggleModals("signUp")}
+            className="btn btn-primary">Sign Up</button>
+            <button onClick={()=>toggleModals("signIn")}
+            className="btn btn-primary ms-3">Sign In</button>
+            <button onClick={()=>toggleModals("close")}
+            className="btn btn-primary ms-3">Log Out</button>
         </div>
         </nav>
     )
