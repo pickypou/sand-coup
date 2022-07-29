@@ -25,16 +25,17 @@ export default function Recettes(){
 
                 <li>
                     <div className="legumes">
-                <img src={tomate}  className="ingrediants"alt="tomates"/>  
+                <img src={tomate}  className="ingrediants"alt="tomates"/>
                </div>
              <p className="nomLegumes">2 tomates</p> 
+             
                 </li>
 
                 <li>
                     <div className="legumes">
                 <img src={oignon}  className="ingrediants"alt="iognon"/>  
                </div>
-             <p className="nomLegumes">1iognon</p>
+             <p className="nomLegumes">1 iognon</p>
                 </li>
 
                 <li>
@@ -48,7 +49,7 @@ export default function Recettes(){
                     <div className="legumes">
                 <img src={herbe}  className="ingrediants"alt="origan"/>  
                </div>
-             <p className="nomLegumes">1càc d'origan</p>
+             <p className="nomLegumes">1 càc d'origan</p>
                 </li>
 
                 <li>
@@ -76,7 +77,7 @@ export default function Recettes(){
                     <div className="legumes">
                 <img src={concombre}  className="ingrediants"alt="concombre"/>  
                </div>
-             <p className="nomLegumes">1/2concombre</p>
+             <p className="nomLegumes">1/2 concombre</p>
                 </li>
                 
                 <li>
@@ -88,9 +89,9 @@ export default function Recettes(){
 
                 <li>
                     <div className="legumes">
-                <img src={oignon}  className="ingrediants"alt="poivron"/>  
+                <img src={poivron}  className="ingrediants"alt="poivron"/>  
                </div>
-             <p className="nomLegumes">1poivron</p>
+             <p className="nomLegumes">1 poivron</p>
                 </li>
                </ul>
 

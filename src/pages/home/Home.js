@@ -1,10 +1,15 @@
 import React from "react";
+
+
 import './home.css';
 
 export default function Home(){
+
+    
     return(
         <div className="home">
         <h2 className="text-center mt-5">Ce que je vous propose</h2>
+        
 
             <h3 className="ms-3 mt-5">des recettes adapter </h3>
             <p className="ms-5 mt-5">En vous incrivant sur le site et 
