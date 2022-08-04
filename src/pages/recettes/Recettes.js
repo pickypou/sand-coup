@@ -2,7 +2,7 @@ import React from "react";
 import './recettes.css'
 import salade from'./salade.png'
 import tomate from './tomates.png'
-import oignon from './iognon.png'
+import oignon from './oignon.png'
 import citron from './citron.png'
 import herbe from './herbes.png'
 import poivre from './poivre.png'
@@ -14,86 +14,70 @@ import poivron from './poivron.png'
 
 export default function Recettes(){
     return(
+      
         <div>
                 <h2>Voici quelques recettes </h2>
 
              <div>
                 <h4>Salade grecque</h4>
-                <img src={salade} className="salade"  alt="salade"/>
+                <img src={salade} className="salade img-fluid"  alt="salade"/>
                 </div>
-               <ul className="list-group list-group-horizontal liste">
-
-                <li>
-                    <div className="legumes">
-                <img src={tomate}  className="ingrediants"alt="tomates"/>
-               </div>
-             <p className="nomLegumes">2 tomates</p> 
-             
-                </li>
-
-                <li>
-                    <div className="legumes">
-                <img src={oignon}  className="ingrediants"alt="iognon"/>  
-               </div>
-             <p className="nomLegumes">1 iognon</p>
-                </li>
-
-                <li>
-                    <div className="legumes">
-                <img src={citron}  className="ingrediants"alt="iognon"/>  
-               </div>
-             <p className="nomLegumes">1/2 citron</p>
-                </li>
-
-                <li>
-                    <div className="legumes">
-                <img src={herbe}  className="ingrediants"alt="origan"/>  
-               </div>
-             <p className="nomLegumes">1 càc d'origan</p>
-                </li>
-
-                <li>
-                    <div className="legumes">
-                <img src={poivre}  className="ingrediants"alt="poivre"/>  
-               </div>
-             <p className="nomLegumes">poivre</p>
-                </li>
-
-                <li>
-                    <div className="legumes">
-                <img src={sel}  className="ingrediants"alt="sel"/>  
-               </div>
-             <p className="nomLegumes">sel</p>
-                </li>
-
-                <li>
-                    <div className="legumes">
-                <img src={feta}  className="ingrediants"alt="feta en cube"/>  
-               </div>
-             <p className="nomLegumes">feta</p>
-                </li>
-
-                <li>
-                    <div className="legumes">
-                <img src={concombre}  className="ingrediants"alt="concombre"/>  
-               </div>
-             <p className="nomLegumes">1/2 concombre</p>
-                </li>
+               
+              <div className="container-fluid ingrediants">
                 
-                <li>
-                    <div className="legumes">
-                <img src={olive}  className="ingrediants"alt="iolive"/>  
-               </div>
-             <p className="nomLegumes">olive noir</p>
-                </li>
+   <figure class="figure">
+  <img src={tomate} className="legumes col figure-img img-fluid rounded" alt="tomate" />
+  <figcaption className="figure-caption ms-4">2 tomates.</figcaption>
+</figure>
 
-                <li>
-                    <div className="legumes">
-                <img src={poivron}  className="ingrediants"alt="poivron"/>  
-               </div>
-             <p className="nomLegumes">1 poivron</p>
-                </li>
-               </ul>
+<figure class="figure">
+  <img src={oignon} className="legumes col figure-img img-fluid rounded" alt="oignon" />
+  <figcaption className="figure-caption ms-4">1 oignon.</figcaption>
+</figure>
+
+<figure class="figure">
+  <img src={poivre} className="legumes col figure-img img-fluid rounded" alt="poivre" />
+  <figcaption className="figure-caption ms-4">poivre.</figcaption>
+</figure>
+
+<figure class="figure">
+  <img src={sel} className="legumes col figure-img img-fluid rounded" alt="sel" />
+  <figcaption className="figure-caption ms-4">sel.</figcaption>
+</figure>
+
+<figure class="figure">
+  <img src={feta} className="legumes col figure-img img-fluid rounded" alt="feta" />
+  <figcaption className="figure-caption ms-4">feta.</figcaption>
+</figure>
+
+<figure class="figure">
+  <img src={citron} className="legumes col figure-img img-fluid rounded" alt="citron" />
+  <figcaption className="figure-caption ms-4">1 citron.</figcaption>
+</figure>
+
+<figure class="figure">
+  <img src={herbe} className="legumes col figure-img img-fluid rounded" alt="herbe" />
+  <figcaption className="figure-caption ms-4">origan.</figcaption>
+</figure>
+
+<figure class="figure">
+  <img src={olive} className="legumes col figure-img img-fluid rounded" alt="olive" />
+  <figcaption className="figure-caption ms-4">50g d'olives.</figcaption>
+</figure>
+
+<figure class="figure">
+  <img src={concombre} className="legumes col figure-img img-fluid rounded" alt="concombre" />
+  <figcaption className="figure-caption ms-4">1/2 concombre.</figcaption>
+</figure>
+
+<figure class="figure">
+  <img src={poivron} className="legumes col figure-img img-fluid rounded" alt="poivron" />
+  <figcaption className="figure-caption ms-4">1 poivron vert.</figcaption>
+</figure>
+                
+              </div>
+             
+                
 
                <div class="card depaRecette">
   <div className="card-body text-danger">

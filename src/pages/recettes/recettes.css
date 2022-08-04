@@ -4,36 +4,35 @@ h2, h4 {
 }
 .salade {
     display: block;
-    width: 25rem;
+    width: 20rem;
     margin: 0 auto;
     margin-bottom: 35px;
     
 }
-
+.figure-caption {
+    font-size: 1.2rem;
+}
+ingrediants{
+    display: flex;
+}
 .legumes {
     display: flex;
-    justify-content: space-around;
-    width:10rem;  
+    justify-content:space-between;
+    width:8rem;  
     border-radius: 10px;
     box-shadow: 5px 5px 3px rgb(137, 132, 132);
+    margin-right: 30px; 
+    margin-left: 15px; 
     
-    margin-right: 50px;  
 }
-.liste{
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-   width: 70%;
-   margin: 0 auto;
-}
-.ingrediants {
-    width:10rem;
-    margin-bottom: 6px;
-}
+
+
 .nomLegumes{
-    margin-left: 18px;
-    font-size: 1.3
-    rem;
+   margin-bottom: 20ppx;
+    font-size: 1.3rem;
+  
+    
+    
 }
 .depaRecette {
     width: 200px;
@@ -45,7 +44,7 @@ h2, h4 {
 .cardexplic{
     width: 65%;
     margin: 0 auto;
-    z-index: 0;
+   
 }
 .cardexplic h5 {
     text-transform: uppercase;

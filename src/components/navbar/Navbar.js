@@ -21,26 +21,27 @@ const logOut = async () =>{
 }
 
     return(
-        <nav className="navbar navbar-extand-lg px-4 fixed-top">        
-            <button className="navbar-toggler" 
-            type="button" 
-            data-bs-toggle="collapse"
-             data-bs-target="#navbarSupportedContent" 
-             aria-controls="navbarSupportedContent" 
-             aria-expanded="false" 
-             aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
-    </button>
-            <Link className="navbar-brand" to="/">Accueil</Link>
+        <nav className="navbar navbar-expand-lg fixed-top">
+        <div className="container-fluid">
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           <div className="collaps navbar-collaps" id="navbarSupportedContent">
+             <Link className="navbar-brand ms-2" to="/">Accueil</Link>
             <Link className="navbar-brand" to="recette">Recettes</Link>
+           </div>
+           
         
-        <div>
+        <div className="button-connexion">
             <button onClick={()=>toggleModals("signUp")}
             className="btn btn-primary">Sign Up</button>
             <button onClick={()=>toggleModals("signIn")}
             className="btn btn-primary ms-3">Sign In</button>
             <button onClick={logOut}
             className="btn btn-primary ms-3">Log Out</button>
+        </div>
+        </div>  
         </div>
         </nav>
     )

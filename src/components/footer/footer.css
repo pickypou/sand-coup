@@ -1,12 +1,11 @@
 .footer {
     background-color: red;
-    height: 50px;
+    height:70px;
     margin-top: 45px;
 }
 .footer p {
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    word-spacing: 20px;
+  
     padding: 12px;
 }
