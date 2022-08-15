@@ -37,11 +37,11 @@ const logOut = async () =>{
         
         <NavbarCollapse className="justify-content-end">
             <button onClick={()=>toggleModals("signUp")}
-            className="btn btn-primary">Sign Up</button>
+            className="btn">Sign Up</button>
             <button onClick={()=>toggleModals("signIn")}
-            className="btn btn-primary ms-3">Sign In</button>
+            className="btn ms-3">Sign In</button>
             <button onClick={logOut}
-            className="btn btn-primary ms-3">Log Out</button>
+            className="btn ms-3">Log Out</button>
         </NavbarCollapse>
             
     

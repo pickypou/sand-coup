@@ -1,10 +1,10 @@
 .header {
     width: 100%;
     border-bottom: 1px solid ;
-    background-color: red;
+    background-color: #E4B7E5;
     height: 160px;
 }
-h1 {
+h1 {  
     text-transform: uppercase;
     padding: 30px;
    font-size: 1.6rem;
