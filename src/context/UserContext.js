@@ -1,7 +1,6 @@
 import { createContext, useState, useEffect } from "react";
 
 import {
-    singInWithEmailAndPassword,
     createUserWithEmailAndPassword,
     onAuthStateChanged,
     signInWithEmailAndPassword
@@ -55,7 +54,7 @@ export function UserContextProvider(props) {
             })
         }
     }
-
+        
 
     return (
         <UserContext.Provider value={{ modalState, toggleModals, signUp, currentUser, signIn }}>

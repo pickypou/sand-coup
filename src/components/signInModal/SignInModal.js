@@ -1,4 +1,4 @@
-import React, { useContext, useRef, useEffect, useState } from 'react'
+import React, { useContext, useRef, useState } from 'react'
 import { UserContext } from '../../context/UserContext'
 import { useNavigate } from 'react-router-dom'
 
@@ -88,6 +88,7 @@ export default function SignUpModal() {
                                                 id="signInPwd"
                                                 className="form-control"
                                             />
+                                             <p className='text-danger mt-1 text-center'>{validation}</p>
                                         </div>
                                         
                                         <button className='btn btn-primary ms-2 mb-2'>envoyer</button>

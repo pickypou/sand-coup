@@ -1,4 +1,4 @@
-import React, { useContext, useRef, useEffect, useState } from 'react'
+import React, { useContext, useRef, useState } from 'react'
 import { UserContext } from '../../context/UserContext'
 import './signUpModal.css'
 import {useNavigate} from 'react-router-dom'
@@ -31,7 +31,7 @@ export default function SignUpModal() {
             return;
         }
         try {
-            const cred = await signUp(
+             await signUp(
                 inputs.current[0].value,
                 inputs.current[1].value
             )

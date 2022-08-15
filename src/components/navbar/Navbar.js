@@ -5,6 +5,7 @@ import { UserContext } from "../../context/UserContext";
 import { signOut } from "firebase/auth";
 import {useNavigate} from 'react-router-dom'
 import { auth } from "../../firebase-config";
+import NavbarCollapse from "react-bootstrap/esm/NavbarCollapse";
 
 
 export default function Navbar(){
@@ -30,17 +31,20 @@ const logOut = async () =>{
            <div className="collaps navbar-collaps" id="navbarSupportedContent">
              <Link className="navbar-brand ms-2" to="/">Accueil</Link>
             <Link className="navbar-brand" to="recette">Recettes</Link>
+            
            </div>
            
         
-        <div className="button-connexion">
+        <NavbarCollapse className="justify-content-end">
             <button onClick={()=>toggleModals("signUp")}
             className="btn btn-primary">Sign Up</button>
             <button onClick={()=>toggleModals("signIn")}
             className="btn btn-primary ms-3">Sign In</button>
             <button onClick={logOut}
             className="btn btn-primary ms-3">Log Out</button>
-        </div>
+        </NavbarCollapse>
+            
+    
         </div>  
         </div>
         </nav>
