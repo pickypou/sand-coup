@@ -3,6 +3,7 @@
     margin-top: 40px;
 }
 .select-recette {
-margin: 0 auto;
-translate: 50%, 50%;
+margin-left: auto;
+margin-right: auto;
+height: 100%;
 }

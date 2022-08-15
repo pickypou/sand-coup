@@ -27,7 +27,7 @@ const logOut = async () =>{
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
            <div className="collaps navbar-collaps" id="navbarSupportedContent">
              <Link className="navbar-brand ms-2" to="/">Accueil</Link>
             <Link className="navbar-brand" to="recette">Recettes</Link>

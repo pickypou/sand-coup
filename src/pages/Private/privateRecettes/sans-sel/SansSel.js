@@ -1,9 +1,14 @@
-import React from 'react'
+import React, {useContext} from 'react'
+import { PrivateContext } from '../../../../context/PirvateContext'
 
 export default function SansSel() {
+
+  const {selectRecette} = useContext(PrivateContext)
   return (
-    <div>
-      <h2>recette sans sel</h2>
-    </div>
+  <>
+  {selectRecette.SansSel &&(
+    <h2>recette sans sel</h2>
+  )}
+  </>
   )
 }

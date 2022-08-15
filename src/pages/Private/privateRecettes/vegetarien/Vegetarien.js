@@ -3,7 +3,7 @@ import React from 'react'
 export default function Vegetarien() {
   return (
     <div>
-      <H2>Vegetarien</H2>
+      <h2>Vegetarien</h2>
     </div>
   )
 }

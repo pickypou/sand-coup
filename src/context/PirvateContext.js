@@ -22,7 +22,7 @@ export function PrivateContextProvider(props) {
             })
         }
 
-        if(button === "sansLatose"){
+        if(button === "sansLactose"){
             setSelectRegime({
                 sansSel: false,
                 sansLactose: true,
@@ -39,7 +39,7 @@ export function PrivateContextProvider(props) {
                 veganne: false
             })
         }
-        if(button === "svegannel"){
+        if(button === "veganne"){
             setSelectRegime({
                 sansSel: false,
                 sansLactose: false,
