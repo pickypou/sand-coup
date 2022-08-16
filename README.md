@@ -5,8 +5,10 @@
 1 le code et disponible sur gitHub a l'adresse:
 https://github.com/pickypou/sand-coup.git
 
-via un termina:
+via un terminal:
  git clone https://github.com/pickypou/sand-coup.git
+
+ importation de bootstrap & react-router-dom
 
  npm install
 

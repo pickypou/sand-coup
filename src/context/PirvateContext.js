@@ -12,7 +12,7 @@ export function PrivateContextProvider(props) {
         veganne: false
     })
 
-    const toggleRecette = button => {
+    const toggleRegime = button => {
         if(button === "sansSel"){
             setSelectRegime({
                 sansSel: true,
@@ -52,7 +52,7 @@ export function PrivateContextProvider(props) {
 
 
     return(
-        <PrivateContext.Provider value={{ selectRegime, toggleRecette}}>
+        <PrivateContext.Provider value={{ selectRegime, toggleRegime}}>
             {props.children}
         </PrivateContext.Provider>
     )

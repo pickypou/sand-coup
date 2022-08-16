@@ -6,8 +6,8 @@ import Button from 'react-bootstrap/Button'
 
 export default function PrivateHome() {
 
-  const {toggleRecette} = useContext(PrivateContext)
-  console.log(toggleRecette);
+  const {toggleRegime} = useContext(PrivateContext)
+  console.log(toggleRegime);
 
 
   return (
@@ -16,13 +16,13 @@ export default function PrivateHome() {
       <h2 className='private-title'>bienvenue sur votre page priver </h2>
       <h3 className='private-title'>ici vous pouvez choisir le type de recettes que vous voulez deguster</h3>
       <div className='select-recette'>
-        <Button onClick={()=> toggleRecette("sansSel")}
+        <Button onClick={()=> toggleRegime("sansSel")}
         variant ="outline-primary ms-5 mt-5 ">Sans sel</Button>
-      <Button onClick={()=> toggleRecette("sansLactose")}
+      <Button onClick={()=> toggleRegime("sansLactose")}
       variant ="outline-primary ms-5 mt-5 ">Sans lactose</Button>
-      <Button onClick={()=> toggleRecette("vegetarien")}
+      <Button onClick={()=> toggleRegime("vegetarien")}
       variant ="outline-primary ms-5 mt-5 "> Végétarien</Button>
-      <Button onClick={()=> toggleRecette("veganne")}
+      <Button onClick={()=> toggleRegime("veganne")}
       variant ="outline-primary ms-5 mt-5 ">Véganne</Button>
       </div>
       
