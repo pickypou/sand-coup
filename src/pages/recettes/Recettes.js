@@ -25,52 +25,52 @@ export default function Recettes(){
                
               <div className="container-fluid ingrediants">
                 
-   <figure class="figure">
+   <figure className="figure">
   <img src={tomate} className="legumes col figure-img img-fluid rounded" alt="tomate" />
   <figcaption className="figure-caption ms-4">2 tomates.</figcaption>
 </figure>
 
-<figure class="figure">
+<figure className="figure">
   <img src={oignon} className="legumes col figure-img img-fluid rounded" alt="oignon" />
   <figcaption className="figure-caption ms-4">1 oignon.</figcaption>
 </figure>
 
-<figure class="figure">
+<figure className="figure">
   <img src={poivre} className="legumes col figure-img img-fluid rounded" alt="poivre" />
   <figcaption className="figure-caption ms-4">poivre.</figcaption>
 </figure>
 
-<figure class="figure">
+<figure className="figure">
   <img src={sel} className="legumes col figure-img img-fluid rounded" alt="sel" />
   <figcaption className="figure-caption ms-4">sel.</figcaption>
 </figure>
 
-<figure class="figure">
+<figure className="figure">
   <img src={feta} className="legumes col figure-img img-fluid rounded" alt="feta" />
   <figcaption className="figure-caption ms-4">feta.</figcaption>
 </figure>
 
-<figure class="figure">
+<figure className="figure">
   <img src={citron} className="legumes col figure-img img-fluid rounded" alt="citron" />
   <figcaption className="figure-caption ms-4">1 citron.</figcaption>
 </figure>
 
-<figure class="figure">
+<figure className="figure">
   <img src={herbe} className="legumes col figure-img img-fluid rounded" alt="herbe" />
   <figcaption className="figure-caption ms-4">origan.</figcaption>
 </figure>
 
-<figure class="figure">
+<figure className="figure">
   <img src={olive} className="legumes col figure-img img-fluid rounded" alt="olive" />
   <figcaption className="figure-caption ms-4">50g d'olives.</figcaption>
 </figure>
 
-<figure class="figure">
+<figure className="figure">
   <img src={concombre} className="legumes col figure-img img-fluid rounded" alt="concombre" />
   <figcaption className="figure-caption ms-4">1/2 concombre.</figcaption>
 </figure>
 
-<figure class="figure">
+<figure className="figure">
   <img src={poivron} className="legumes col figure-img img-fluid rounded" alt="poivron" />
   <figcaption className="figure-caption ms-4">1 poivron vert.</figcaption>
 </figure>
@@ -79,14 +79,14 @@ export default function Recettes(){
              
                 
 
-               <div class="card depaRecette">
+               <div className="card depaRecette">
   <div className="card-body text-danger">
     Commencer la recette
   </div>
 </div>
 
 <div className="card cardexplic" >
-  <div class="card-body">
+  <div className="card-body">
     <h5 className="card-title">étape 1</h5>
     <p className="card-text">Découper les tomates en petits dés et les mettre dans un saladier.</p>
   </div>
@@ -107,14 +107,14 @@ export default function Recettes(){
 </div>
 
           <div className="card cardexplic" >
-  <div class="card-body">
+  <div className="card-body">
     <h5 className="card-title">étape 4</h5>
     <p className="card-text">Disposer sur le dessus de la salade les restes d'oignon et de feta.</p>
   </div>
 </div>   
 
 <div className="card cardexplic" >
-  <div class="card-body">
+  <div className="card-body">
     <h5 className="card-title">étape 5</h5>
     <p className="card-text">Ajouter le zeste et le jus de citron, assaisonner avec l'huile et l'origan, sel poivre. Mélanger délicatement et servir.</p>
   </div>
