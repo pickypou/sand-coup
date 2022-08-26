@@ -4,7 +4,7 @@ h2, h4, h3 {
 }
 .wrap {
     display: block;
-    width: rem;
+    width: 38rem;
     margin: 0 auto;
     margin-bottom: 35px;
     
@@ -23,9 +23,12 @@ ingrediants{
     margin-bottom: 20px;
     
 }
+.temps {
+    font-size: 1.6rem;
+    margin-bottom: 60px;
+}
 .float {
-    float: inline-start;
-    
+    float: inline-start;  
     font-size: 1.6rem;
 }
 
@@ -43,6 +46,7 @@ ingrediants{
     background-color: rgba(243, 243, 239, 0.579);
     margin-bottom: 25px;
     margin-top: 40px;
+    font-size: 1.2 rem;
 }
 .cardexplic{
     width: 65%;
@@ -51,4 +55,7 @@ ingrediants{
 }
 .cardexplic h5 {
     text-transform: uppercase;
+}
+.card-text {
+    font-style: 18px;
 }

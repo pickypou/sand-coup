@@ -32,10 +32,15 @@ export default function SansGluten() {
 
              <div>
                 <h4>Wrap d'été au saumon</h4>
-                 <p className='text-center'>Découvrez sans plus tarder cette recette croquante de wrap totalement healthy et savoureuse de saumon fumé, crudités et pois chiches sans gluten.</p>
+                 <p className='text-center temps'>Découvrez sans plus tarder cette recette croquante de wrap totalement healthy et savoureuse de saumon fumé, crudités et pois chiches sans gluten.</p>
                 <img src={wraps} className="wrap img-fluid"  alt="wrap"/>
-                </div>
                
+        
+                </div>
+                <p className='temps text-center'>
+                      Recette facile Economique Temps total:50 min Préparation: 30 min Cuisson: 5 min Pause: 15 min
+                </p>
+              
                
               <div className="container-fluid ">
              <h3>Pour la pâte</h3>  

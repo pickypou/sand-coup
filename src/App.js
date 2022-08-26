@@ -10,7 +10,7 @@ import Recettes from "./pages/recettes/Recettes";
 import Private from "./pages/Private/Private";
 import PrivateHome from "./pages/Private/PivateHome/PrivateHome";
 import SansGluten from "./pages/Private/privateRecettes/sans-gluten/SansGluten";
-
+import SansLactose from "./pages/Private/privateRecettes/sans-lactose/SansLactose";
 
 function App() {
   return (
@@ -25,6 +25,7 @@ function App() {
         <Route path="/private" element={<Private />}>
           <Route path="/private/private-home" element={<PrivateHome />} />
            <Route path="/private/private-home/privateRecette/SansGluten" element={<SansGluten />} />
+           <Route path="/private/private-home/privateRecette/SansLactose" element={<SansLactose />} />
         </Route>
        
       </Routes>
