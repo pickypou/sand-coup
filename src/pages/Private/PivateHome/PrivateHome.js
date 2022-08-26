@@ -22,6 +22,7 @@ export default function PrivateHome() {
     <nav>
       <Link to='privateRecette/SansGluten' className='btn'>recettes sans gluten</Link>
       <Link to='privateRecette/SansLactose' className='btn'>recettes sans lactose</Link>
+      <Link to='privateRecette/vegane' className='btn'>vegane</Link>
       
     </nav>
     
