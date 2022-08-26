@@ -20,9 +20,10 @@ export default function PrivateHome() {
       <h3 className='private-title'>ici vous pouvez choisir le type de recettes que vous voulez deguster</h3>
     
     <nav>
-      <Link to='privateRecette/SansGluten' className='btn'>recettes sans gluten</Link>
-      <Link to='privateRecette/SansLactose' className='btn'>recettes sans lactose</Link>
-      <Link to='privateRecette/vegane' className='btn'>vegane</Link>
+      <Link to='privateRecette/SansGluten' className='btn btn-outline-info me-4'>recettes sans gluten</Link>
+      <Link to='privateRecette/SansLactose' className='btn btn-outline-info me-4'>recettes sans lactose</Link>
+      <Link to='privateRecette/vegane' className='btn btn-outline-info me-4'>vegane</Link>
+      <Link to='privateRecette/sansOeufs' className='btn btn-outline-info me-4'>Patisserie sans oeufs</Link>
       
     </nav>
     

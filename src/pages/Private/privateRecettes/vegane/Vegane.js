@@ -162,7 +162,7 @@ Commencer la recette
 
 <div className="card cardexplic" >
 <div className="card-body">
-<h5 className="card-title">étape 4</h5>
+<h5 className="card-title">étape 6</h5>
 <p className="card-text">Ajouter le lait de coco et poursuivre la cuisson à couvert 15 minutes. Ce plat se réchauffe facilement, on peut le préparer à l’avance.</p>
 </div>
 </div>   
