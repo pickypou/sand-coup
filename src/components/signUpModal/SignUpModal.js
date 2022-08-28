@@ -37,7 +37,6 @@ export default function SignUpModal() {
             )
             formRef.current.reset();
             setValidation("")
-            //console.log(cred);
             toggleModals("close")
             navigate("/private/private-home")
 

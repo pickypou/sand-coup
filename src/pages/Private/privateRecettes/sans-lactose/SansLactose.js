@@ -89,14 +89,14 @@ Commencer la recette
 </div>
 
 <div className="card cardexplic" >
-<div class="card-body">
+<div className="card-body">
 <h5 className="card-title">étape 2</h5>
 <p className="card-text">Dans un saladier, mélanger la farine, le sel et le sucre. Former un puits au centre, verser la moitié du mélange au lait de coco et remuer.</p>
 </div>
 </div>
 
 <div className="card cardexplic" >
-<div class="card-body">
+<div className="card-body">
 <h5 className="card-title">étape 3</h5>
 <p className="card-text">Battre les oeufs puis les incorporer dans le saladier. Ajouter la vanille et le reste du mélange au lait de coco. Mélanger la préparation afin d'obtenir une pâte bien lisse. </p>
 </div>

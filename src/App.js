@@ -13,6 +13,7 @@ import SansGluten from "./pages/Private/privateRecettes/sans-gluten/SansGluten";
 import SansLactose from "./pages/Private/privateRecettes/sans-lactose/SansLactose";
 import Vegane from "./pages/Private/privateRecettes/vegane/Vegane";
 import Sansoeufs from "./pages/Private/privateRecettes/sansOeufs/Sansoeufs";
+import Vegetarien from './pages/Private/privateRecettes/vegetarien/Vegetarien'
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
            <Route path="/private/private-home/privateRecette/SansLactose" element={<SansLactose />} />
            <Route path="/private/private-home/privateRecette/Vegane" element={<Vegane />} />
            <Route path="/private/private-home/privateRecette/SansOeufs" element={<Sansoeufs />} />
+           <Route path="/private/private-home/privateRecette/Vegetarien" element={<Vegetarien />} />
         </Route>
        
       </Routes>

@@ -7,3 +7,7 @@ margin-left: auto;
 margin-right: auto;
 height: 100%;
 }
+.nav-private-home {
+    display: flex;
+    justify-content: space-around;
+}
